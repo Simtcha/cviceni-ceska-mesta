@@ -1,0 +1,30 @@
+.city {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .city:hover {
+    transform: scale(1.05);
+  }
+  
+  .city img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .city p {
+    margin: 8px 0;
+  }
+  
+  .city span {
+    font-weight: bold;
+  }
